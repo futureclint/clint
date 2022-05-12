@@ -1,23 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="app-wrapper">
+      <header>
+        <h1>Clint Gunter</h1>
+        <p>Hi. I'm Clint Gunter, software engineer who loves design. My favorite work is where programming meets design.</p>
       </header>
+      <hr />
+      <main>
+        <section class="about">
+          <p>This is the about section with link to resume and photo.</p>
+        </section>
+        <hr />
+        <section class="projects">
+          <p>This is the section highlighting projects.</p>
+        </section>
+        <hr />
+        <section class="contact">
+          <p>This is the contact me section</p>
+        </section>
+      </main>
+      <hr />
+      <footer>
+        <span>Thanks for visiting!</span>
+        <br />
+        <span>&copy; 2022&ndash;Present Clint Gunter</span>
+      </footer>
     </div>
   );
 }
