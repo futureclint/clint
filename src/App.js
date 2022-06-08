@@ -1,3 +1,4 @@
+import logo from './images/clintgunter.svg';
 import './App.css';
 
 function App() {
@@ -5,6 +6,7 @@ function App() {
     <div className="app-wrapper">
       <header>
         <h1>Clint Gunter</h1>
+        <img class="logo" src={logo} />
         <p>Hi. I'm Clint Gunter, software engineer who loves design. My favorite work is where programming meets design.</p>
       </header>
       <hr />
