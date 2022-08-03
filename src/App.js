@@ -4,9 +4,11 @@ import './App.css';
 function App() {
   return (
     <div className="app-wrapper">
-      <header>
+      <div class="visually-hidden">
         <h1>Clint Gunter</h1>
-        <img class="logo" src={logo} />
+      </div>
+      <header>
+        <img class="logo" src={logo} alt="Clint Gunter" />
         <p>Hi. I'm Clint Gunter, software engineer who loves design. My favorite work is where programming meets design.</p>
       </header>
       <hr />
