@@ -22,7 +22,7 @@ function App() {
         </section>
         <hr />
         <section class="contact">
-          <p>This is the contact me section</p>
+          <p>This is the contact me section.</p>
         </section>
       </main>
       <hr />
