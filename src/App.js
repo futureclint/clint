@@ -1,5 +1,5 @@
 import logo from './images/clintgunter.svg';
-import './App.css';
+import './css/app.css';
 
 function App() {
   return (
