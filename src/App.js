@@ -1,4 +1,4 @@
-import logo from './images/clintgunter.svg';
+import logo from './images/clint-gunter.svg';
 import './css/app.css';
 
 function App() {
@@ -8,8 +8,18 @@ function App() {
         <h1>Clint Gunter</h1>
       </div>
       <header>
-        <img className="logo" src={logo} alt="Clint Gunter" />
-        <p>Hi. I'm Clint Gunter, software engineer who loves design. My favorite work is where programming meets design.</p>
+        <div className="logo">
+          <div className="logo-lines">
+            <div className="logo-line-shape" id="line-1"></div>
+            <div className="logo-line-shape" id="line-2"></div>
+            <div className="logo-line-shape" id="line-3"></div>
+            <div className="logo-line-shape" id="line-4"></div>
+            <div className="logo-line-shape" id="line-5"></div>
+            <div className="logo-line-shape" id="line-6"></div>
+            <div className="logo-line-shape" id="line-7"></div>
+          </div>
+          <img className="logo-text" src={logo} alt="Clint Gunter" draggable="false" />
+        </div>
       </header>
       <hr />
       <main>

@@ -1,5 +1,4 @@
 body {
-  padding: 20px;
   background-color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
   color: black;
@@ -30,29 +29,71 @@ a {
   width: 1px;
 }
 
-.logo {
-  border: 1px dashed purple;
+header {
+  padding-top: 20px;
+  user-select: none;
 }
 
 .logo-lines {
   width: auto;
   height: auto;
   float: left;
-  margin-top: 1px;
-  background: lightgray;
+  margin-left: -2px;
 }
 
 .logo-line-shape {
-  width: 20px;
   height: 2px;
   margin: 2px 0;
   border-radius: 10px;
+}
+
+.logo-line-shape#line-1 {
+  width: 55.5px;
   background-color: #FFCF00;
+}
+
+.logo-line-shape#line-2 {
+  width: 52px;
+  background-color: #FFAA12;
+}
+
+.logo-line-shape#line-3 {
+  width: 50.5px;
+  background-color: #FF7913;
+}
+
+.logo-line-shape#line-4 {
+  width: 50px;
+  background-color: #FF4613;
+}
+
+.logo-line-shape#line-5 {
+  width: 50.5px;
+  background-color: #FF1313;
+}
+
+.logo-line-shape#line-6 {
+  width: 52px;
+  background-color: #FF1348;
+}
+
+.logo-line-shape#line-7 {
+  width: 55.5px;
+  background-color: #FF137B;
 }
 
 img.logo-text {
   display: block;
-  width: 226px;
+  width: auto;
+  height: 29px;
   position: relative;
-  right: 42px;
+  left: 6px;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  padding: 20px;
 }

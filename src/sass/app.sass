@@ -6,7 +6,6 @@
 @use 'variables' as *
 
 body
-  padding: 20px
   background-color: white
   font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif
   color: black
@@ -21,7 +20,7 @@ hr
   background-color: #3b3c3d
 
 a
-  color: dodgerblue
+  color: dodgerblue // TEMP
 
 // Visually hidden, but still exists on page
 // https://www.scottohara.me/blog/2017/04/14/inclusively-hidden.html
@@ -35,27 +34,58 @@ a
   white-space: nowrap
   width: 1px
 
-// Logo
+// Header
 
-.logo
-  border: 1px dashed purple
+header
+  padding-top: 20px
+  user-select: none
 
 .logo-lines
   width: auto
   height: auto
   float: left
-  margin-top: 1px
-  background: lightgray
+  margin-left: -2px // Ensure lines start offscreen
 
 .logo-line-shape
-  width: 20px
   height: 2px
   margin: 2px 0
   border-radius: 10px
+
+.logo-line-shape#line-1
+  width: $logo-line-base + $logo-line-extend-3
   background-color: $spectrum-1
+.logo-line-shape#line-2
+  width: $logo-line-base + $logo-line-extend-2
+  background-color: $spectrum-2
+.logo-line-shape#line-3
+  width: $logo-line-base + $logo-line-extend-1
+  background-color: $spectrum-3
+.logo-line-shape#line-4
+  width: $logo-line-base + $logo-line-extend-0
+  background-color: $spectrum-4
+.logo-line-shape#line-5
+  width: $logo-line-base + $logo-line-extend-1
+  background-color: $spectrum-5
+.logo-line-shape#line-6
+  width: $logo-line-base + $logo-line-extend-2
+  background-color: $spectrum-6
+.logo-line-shape#line-7
+  width: $logo-line-base + $logo-line-extend-3
+  background-color: $spectrum-7
 
 img.logo-text
   display: block
-  width: 226px
+  width: auto
+  height: 29px
   position: relative
-  right: 42px
+  left: 6px // Distance between lines and text
+
+// Main
+
+main
+  padding: 20px
+
+// Footer
+
+footer
+  padding: 20px
