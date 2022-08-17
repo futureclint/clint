@@ -99,6 +99,13 @@ main {
   padding: 20px;
 }
 
+img.headshot {
+  display: block;
+  width: 150px;
+  margin: 20px;
+  border-radius: 50%;
+}
+
 footer {
   padding: 20px;
 }

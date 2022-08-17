@@ -1,4 +1,5 @@
 import logo from './images/clint-gunter.svg';
+import headshot from './images/clint-gunter-headshot.jpg';
 import './css/app.css';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <main>
         <section className="about">
           <p>This is the about section with link to resume and photo.</p>
+          <img className="headshot" src={headshot} alt="Photo of Clint Gunter" draggable="false" />
         </section>
         <hr />
         <section className="projects">
