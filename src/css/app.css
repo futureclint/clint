@@ -16,7 +16,12 @@ hr {
 }
 
 a {
-  color: dodgerblue;
+  color: #FF1348;
+}
+
+::selection {
+  color: white;
+  background-color: #FF1348;
 }
 
 .visually-hidden:not(:focus):not(:active) {
