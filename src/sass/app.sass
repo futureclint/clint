@@ -7,14 +7,31 @@
 
 body
   background-color: black
-  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif
   color: white
 
-h1, h2, h3, h4, h5, p
-  margin: 0
+h1, h2, h3, h4, h5, p, ul
+  padding: 0 // Remove default padding
+  margin: 0 // Remove default margin
+
+h2
+  margin: 20px 0
+  font-size: 32px
+  letter-spacing: -0.5px
+  font-weight: 700
+
+p
+  margin: 12px 0
+  font-size: 18px
+  line-height: 24px
+  color: #dadada
 
 a
   color: $highlight
+
+ul
+  margin: 12px 0
+  list-style-type: none
 
 ::selection
   color: white
@@ -81,7 +98,11 @@ img.logo-text
 // Main
 
 main
-  padding: 20px
+  padding: 0 20px
+
+section
+  padding-bottom: 12px
+  border-bottom: 1px solid #222
 
 img.headshot
   display: block
