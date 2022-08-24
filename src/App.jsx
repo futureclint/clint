@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="app-wrapper">
+    <div className="page-wrapper">
 
       {/* Hidden H1 */}
       <div className="visually-hidden">
