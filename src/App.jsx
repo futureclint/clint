@@ -1,7 +1,8 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from './images/clint-gunter.svg';
 import headshot from './images/clint-gunter-headshot.jpg';
 import './css/app.css';
-import { Link } from "react-router-dom";
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
           <p>The intersection of design with technology is sort of where I live. “Arts & Technology” is actually the name of one of my degrees. Building superior, thoughtful, and functional interfaces is my passion.</p>
           <p>Recently I have come off of a sabbatical, sharpened my technical skills by completing a software engineering immersive, and worked on independent and freelance projects.</p>
           <p>When I’m not programming and designing, I love to noodle around on acoustic guitar, go on hikes, read physical books, and explore virtual worlds.</p>
-          <p>I’m on the lookout for my next full-time opportunity. Would you like to work together? <a href="mailto:&#99;&#108;&#105;&#110;&#116;&#64;&#99;&#108;&#105;&#110;&#116;&#46;&#105;&#111;?subject=Let’s Work Together" target="_blank" rel="noreferrer">Send me a note!</a></p>
+          <p>I’m on the lookout for my next full-time opportunity. Would you like to work together? <a href="mailto:&#99;&#108;&#105;&#110;&#116;&#64;&#99;&#108;&#105;&#110;&#116;&#46;&#105;&#111;?subject=Let’s Work Together" target="_blank" rel="noopener noreferrer">Send me a note!</a></p>
         </section>
 
         {/* Skills Section */}
@@ -80,8 +81,8 @@ function App() {
         {/* Contact Section */}
         <section className="contact">
           <h2>Contact</h2>
-          <p>I'd love to hear from you! The easiest way to contact me is to <a href="mailto:&#99;&#108;&#105;&#110;&#116;&#64;&#99;&#108;&#105;&#110;&#116;&#46;&#105;&#111;?subject=Let’s Work Together" target="_blank" rel="noreferrer">send me an email</a>. <i>Please note, I cannot respond to all email messages. I will respond to messages that are a good fit for my schedule and interests.</i></p>
-          <p>You can also <Link to="/files/clint-gunter-resume.pdf" target="_blank" download>download my resume</Link>, visit me on <a href="https://github.com/futureclint" target="_blank" rel="noreferrer">GitHub</a>, or visit me on <a href="https://www.linkedin.com/in/futureclint/" target="_blank" rel="noreferrer">LinkedIn</a>.</p>
+          <p>I'd love to hear from you! The easiest way to contact me is to <a href="mailto:&#99;&#108;&#105;&#110;&#116;&#64;&#99;&#108;&#105;&#110;&#116;&#46;&#105;&#111;?subject=Let’s Work Together" target="_blank" rel="noopener noreferrer">send me an email</a>. <i>Please note, I cannot respond to all email messages. I will respond to messages that are a good fit for my schedule and interests.</i></p>
+          <p>You can also <Link to="/files/clint-gunter-resume.pdf" target="_blank" download>download my resume</Link>, visit me on <a href="https://github.com/futureclint" target="_blank" rel="noopener noreferrer">GitHub</a>, or visit me on <a href="https://www.linkedin.com/in/futureclint/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.</p>
         </section>
 
       </main>
