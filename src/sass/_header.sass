@@ -1,0 +1,57 @@
+// Header
+
+@use 'variables' as *
+
+header
+  grid-column-start: 2
+  grid-column-end: 3
+  margin: 50px 0 30px 0
+  user-select: none
+  white-space: nowrap
+
+.logo
+  display: flex
+  justify-content: flex-start
+
+.logo-lines
+  width: 14px
+  display: flex
+  justify-content: flex-end
+
+.logo-lines-shape-wrapper
+  width: fit-content
+
+.logo-line-shape
+  height: 2px
+  margin: 2px 0
+  border-radius: 10px
+
+.logo-line-shape#line-1
+  width: $logo-line-base + $logo-line-extend-3
+  background-color: $spectrum-1
+.logo-line-shape#line-2
+  width: $logo-line-base + $logo-line-extend-2
+  background-color: $spectrum-2
+.logo-line-shape#line-3
+  width: $logo-line-base + $logo-line-extend-1
+  background-color: $spectrum-3
+.logo-line-shape#line-4
+  width: $logo-line-base + $logo-line-extend-0
+  background-color: $spectrum-4
+.logo-line-shape#line-5
+  width: $logo-line-base + $logo-line-extend-1
+  background-color: $spectrum-5
+.logo-line-shape#line-6
+  width: $logo-line-base + $logo-line-extend-2
+  background-color: $spectrum-6
+.logo-line-shape#line-7
+  width: $logo-line-base + $logo-line-extend-3
+  background-color: $spectrum-7
+
+img.logo-text
+  display: block
+  width: auto
+  height: 30px
+  position: relative
+  top: -1px
+  left: 5px // Distance between lines and text
