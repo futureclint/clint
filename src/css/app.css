@@ -65,13 +65,16 @@ ul {
     grid-template-areas: "header" "main" "footer";
   }
 }
-.grid header {
+
+header {
   grid-area: header;
 }
-.grid main {
+
+main {
   grid-area: main;
 }
-.grid footer {
+
+footer {
   grid-area: footer;
 }
 
