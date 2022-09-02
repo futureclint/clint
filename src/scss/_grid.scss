@@ -1,18 +1,6 @@
 // Grid
 
-// TEMP: move mixins out to their own file
-
-@mixin width-lg {
-  @media (min-width: 769px) {
-    @content;
-  }
-}
-
-@mixin width-sm {
-  @media (max-width: 768px) {
-    @content;
-  }
-}
+@use 'mixins' as *;
 
 .grid {
   display: grid;
