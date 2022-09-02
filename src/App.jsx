@@ -6,14 +6,14 @@ import './css/app.css';
 
 function App() {
   return (
-    <div className="page-wrapper">
+    <div className="app">
 
       {/* Hidden H1 */}
       <div className="visually-hidden">
         <h1>Clint Gunter</h1>
       </div>
 
-      <div className="grid-wrapper">
+      <div className="grid">
 
         {/* Header */}
         <header>

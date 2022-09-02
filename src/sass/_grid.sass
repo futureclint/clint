@@ -1,0 +1,29 @@
+// Grid
+
+// TEMP: move mixins out to their own file
+@mixin width-lg
+  @media (min-width: 769px)
+    @content
+@mixin width-sm
+  @media (max-width: 768px)
+    @content
+
+.grid
+  display: grid
+  grid-template-columns: auto 768px auto
+  grid-template-rows: auto auto auto
+  grid-template-areas: ". header ." ". main ." ". footer ."
+  grid-gap: 0
+
+  @include width-sm
+    grid-template-columns: auto // switch to single column
+    grid-template-areas: "header" "main" "footer" // remove margin columns
+
+  header
+    grid-area: header
+
+  main
+    grid-area: main
+
+  footer
+    grid-area: footer
