@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from './images/clint-gunter.svg';
-import headshot from './images/clint-gunter-headshot.jpg';
+import headshot from './images/clint-gunter-headshot-color.jpg';
 import './css/app.css';
 
 function App() {
