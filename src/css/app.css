@@ -29,7 +29,7 @@ p {
 }
 
 a {
-  color: #FF1348;
+  color: #105BFF;
 }
 
 ul {
@@ -39,7 +39,7 @@ ul {
 
 ::selection {
   color: white;
-  background-color: #FF1348;
+  background-color: #105BFF;
 }
 
 .visually-hidden:not(:focus):not(:active) {
@@ -107,37 +107,37 @@ header {
 
 .logo-line-shape#line-1 {
   width: 10005.5px;
-  background-color: #FFCF00;
+  background-color: #FF3365;
 }
 
 .logo-line-shape#line-2 {
   width: 10002px;
-  background-color: #FFAA12;
+  background-color: #E72CF7;
 }
 
 .logo-line-shape#line-3 {
   width: 10000.5px;
-  background-color: #FF7913;
+  background-color: #9100FF;
 }
 
 .logo-line-shape#line-4 {
   width: 10000px;
-  background-color: #FF4613;
+  background-color: #105BFF;
 }
 
 .logo-line-shape#line-5 {
   width: 10000.5px;
-  background-color: #FF1313;
+  background-color: #0094F7;
 }
 
 .logo-line-shape#line-6 {
   width: 10002px;
-  background-color: #FF1348;
+  background-color: #00CCCC;
 }
 
 .logo-line-shape#line-7 {
   width: 10005.5px;
-  background-color: #FF137B;
+  background-color: #11E27A;
 }
 
 img.logo-text {
