@@ -74,7 +74,7 @@ function App() {
 
           {/* Projects Section */}
           <section className="projects">
-            <h2>Projects</h2>
+            <h2>Recent Projects</h2>
             <div className="project">
               <h3>When to Go Outside</h3>
               <p>Ever wondered when it would be best to go outside for a bit? This simple website uses your geolocation to pull weather data from the OpenWeather API, then calculates the span(s) of time it would be best to go outside. This project is a work in progress.</p>
