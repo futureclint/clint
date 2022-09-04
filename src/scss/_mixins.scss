@@ -8,6 +8,14 @@
   }
 }
 
+// Medium Widths
+
+@mixin width-md {
+  @media (max-width: 1000px) {
+    @content;
+  }
+}
+
 // Small Widths
 
 @mixin width-sm {

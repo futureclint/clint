@@ -94,6 +94,16 @@ header {
   display: flex;
   justify-content: flex-end;
 }
+@media (max-width: 1000px) {
+  .logo-lines {
+    width: 12vw;
+  }
+}
+@media (max-width: 768px) {
+  .logo-lines {
+    width: 20vw;
+  }
+}
 
 .logo-lines-shape-wrapper {
   width: fit-content;

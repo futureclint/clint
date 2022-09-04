@@ -1,6 +1,7 @@
 // Header
 
 @use 'variables' as *;
+@use 'mixins' as *;
 
 header {
   margin: 50px 0 30px 0;
@@ -15,6 +16,13 @@ header {
   width: 14px;
   display: flex;
   justify-content: flex-end;
+
+  @include width-md {
+    width: 12vw; // extend lines so enough is visible
+  }
+  @include width-sm {
+    width: 20vw; // extend lines so enough is visible
+  }
 }
 .logo-lines-shape-wrapper {
   width: fit-content;
