@@ -1,0 +1,10 @@
+// Skills
+
+@use 'variables' as *;
+
+section.skills li {
+  display: inline-block;
+  padding: 6px 12px;
+  margin: 1px;
+  background: darken($spectrum-7, 25%);
+}
