@@ -180,7 +180,64 @@ section.skills li {
   display: inline-block;
   padding: 6px 12px;
   margin: 1px;
-  background: #086b3a;
+  background-color: #303030;
+  cursor: default;
+  transition: background-color 0.2s;
+}
+
+section.skills li.skill-html:hover {
+  background-color: #E44D27;
+}
+section.skills li.skill-css :hover {
+  background-color: #215EAA;
+}
+section.skills li.skill-sass:hover {
+  background-color: #BF4080;
+}
+section.skills li.skill-javascript:hover {
+  background-color: #D4B732;
+}
+section.skills li.skill-ruby:hover {
+  background-color: #930E04;
+}
+section.skills li.skill-react:hover {
+  background-color: #2DA4C4;
+}
+section.skills li.skill-aurelia:hover {
+  background-color: #653D9A;
+}
+section.skills li.skill-node:hover {
+  background-color: #3D863C;
+}
+section.skills li.skill-express:hover {
+  background-color: #3A4854;
+}
+section.skills li.skill-mongodb:hover {
+  background-color: #023430;
+}
+section.skills li.skill-rubyonrails:hover {
+  background-color: #D30002;
+}
+section.skills li.skill-postgresql:hover {
+  background-color: #336791;
+}
+section.skills li.skill-git:hover {
+  background-color: #F54D27;
+}
+section.skills li.skill-uiuxdesign:hover {
+  background-color: #005CFF;
+}
+section.skills li.skill-branding:hover {
+  background-color: #00B400;
+}
+section.skills li.skill-liquid:hover {
+  background-color: #0C83CD;
+}
+section.skills li.skill-shopify:hover {
+  background-color: #95BF47;
+}
+section.skills li.skill-statamic:hover {
+  background-color: #FE259E;
 }
 
 footer {
