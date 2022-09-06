@@ -8,12 +8,12 @@ section.skills li {
   margin: 1px;
   background-color: #303030; // fallback
   cursor: default;
-  transition: background-color 0.2s;
+  transition: background-color 0.33s ease-in;
 }
 
 section.skills {
   li.skill-html:hover        { background-color: $skill-html; }
-  li.skill-css :hover        { background-color: $skill-css; }
+  li.skill-css:hover         { background-color: $skill-css; }
   li.skill-sass:hover        { background-color: $skill-sass; }
   li.skill-javascript:hover  { background-color: $skill-javascript; }
   li.skill-ruby:hover        { background-color: $skill-ruby; }

@@ -182,13 +182,13 @@ section.skills li {
   margin: 1px;
   background-color: #303030;
   cursor: default;
-  transition: background-color 0.2s;
+  transition: background-color 0.33s ease-in;
 }
 
 section.skills li.skill-html:hover {
   background-color: #E44D27;
 }
-section.skills li.skill-css :hover {
+section.skills li.skill-css:hover {
   background-color: #215EAA;
 }
 section.skills li.skill-sass:hover {
