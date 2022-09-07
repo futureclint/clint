@@ -1,0 +1,23 @@
+// About
+
+@use 'variables' as *;
+
+.hi {
+  display: block;
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: 'Caveat';
+  font-size: 46px;
+  letter-spacing: 0.5px;
+  color: $spectrum-1;
+  white-space: nowrap;
+}
+
+img.headshot {
+  display: block;
+  float: right;
+  width: 150px;
+  margin: 0 0 20px 40px; // spacing for text flow
+  clip-path: polygon(0 0, 0 70%, 30% 100%, 100% 100%, 100% 30%, 70% 0);
+  opacity: 85%;
+}

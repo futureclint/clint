@@ -22,7 +22,7 @@ h2 {
 
 p {
   width: 100%;
-  margin: 12px 0;
+  margin: 0 0 20px 0;
   font-size: 18px;
   line-height: 24px;
   color: #dadada;
@@ -79,7 +79,7 @@ footer {
 }
 
 header {
-  margin: 50px 0 30px 0;
+  margin: 120px 0;
   user-select: none;
   white-space: nowrap;
 }
@@ -169,11 +169,24 @@ section {
   border-bottom: 1px solid #222;
 }
 
+.hi {
+  display: block;
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Caveat";
+  font-size: 46px;
+  letter-spacing: 0.5px;
+  color: #FF3365;
+  white-space: nowrap;
+}
+
 img.headshot {
   display: block;
+  float: right;
   width: 150px;
-  margin: 0;
+  margin: 0 0 20px 40px;
   clip-path: polygon(0 0, 0 70%, 30% 100%, 100% 100%, 100% 30%, 70% 0);
+  opacity: 85%;
 }
 
 section.skills li {
