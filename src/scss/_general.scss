@@ -27,16 +27,12 @@ p {
   line-height: 24px;
   color: #dadada; // TEMP: create variable
 }
-a {
-  color: $highlight;
-}
 ul {
   margin: 12px 0;
   list-style-type: none;
 }
 ::selection {
   color: white;
-  background-color: $highlight;
 }
 
 // Visually hidden, but still exists on page

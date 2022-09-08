@@ -2,26 +2,64 @@
 
 @use 'variables' as *;
 
+// Session has one of seven spectrum colors, assigned on the app wrapper. Any child element with these classes will use that spectrum color.
+
 // Spectrum Color
-// Session has one of seven spectrum colors, assigned on the app wrapper. Any child element with this class will have that color assigned to it.
-.app.spectrum-1 .spectrum-color {
+.app.spectrum-1 .spectrum-color,
+.app.spectrum-1 a {
   color: $spectrum-1;
 }
-.app.spectrum-2 .spectrum-color {
+.app.spectrum-2 .spectrum-color,
+.app.spectrum-2 a {
   color: $spectrum-2;
 }
-.app.spectrum-3 .spectrum-color {
+.app.spectrum-3 .spectrum-color,
+.app.spectrum-3 a {
   color: $spectrum-3;
 }
-.app.spectrum-4 .spectrum-color {
+.app.spectrum-4 .spectrum-color,
+.app.spectrum-4 a {
   color: $spectrum-4;
 }
-.app.spectrum-5 .spectrum-color {
+.app.spectrum-5 .spectrum-color,
+.app.spectrum-5 a {
   color: $spectrum-5;
 }
-.app.spectrum-6 .spectrum-color {
+.app.spectrum-6 .spectrum-color,
+.app.spectrum-6 a {
   color: $spectrum-6;
 }
-.app.spectrum-7 .spectrum-color {
+.app.spectrum-7 .spectrum-color,
+.app.spectrum-7 a {
   color: $spectrum-7;
+}
+
+// Spectrum Background
+.app.spectrum-1 .spectrum-background,
+.app.spectrum-1 ::selection {
+  background-color: $spectrum-1;
+}
+.app.spectrum-2 .spectrum-background,
+.app.spectrum-2 ::selection {
+  background-color: $spectrum-2;
+}
+.app.spectrum-3 .spectrum-background,
+.app.spectrum-3 ::selection {
+  background-color: $spectrum-3;
+}
+.app.spectrum-4 .spectrum-background,
+.app.spectrum-4 ::selection {
+  background-color: $spectrum-4;
+}
+.app.spectrum-5 .spectrum-background,
+.app.spectrum-5 ::selection {
+  background-color: $spectrum-5;
+}
+.app.spectrum-6 .spectrum-background,
+.app.spectrum-6 ::selection {
+  background-color: $spectrum-6;
+}
+.app.spectrum-7 .spectrum-background,
+.app.spectrum-7 ::selection {
+  background-color: $spectrum-7;
 }
