@@ -1,3 +1,31 @@
+.app.spectrum-1 .spectrum-color {
+  color: #FF3365;
+}
+
+.app.spectrum-2 .spectrum-color {
+  color: #E72CF7;
+}
+
+.app.spectrum-3 .spectrum-color {
+  color: #9100FF;
+}
+
+.app.spectrum-4 .spectrum-color {
+  color: #105BFF;
+}
+
+.app.spectrum-5 .spectrum-color {
+  color: #0094F7;
+}
+
+.app.spectrum-6 .spectrum-color {
+  color: #00CCCC;
+}
+
+.app.spectrum-7 .spectrum-color {
+  color: #11E27A;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -176,7 +204,6 @@ section {
   font-family: "Caveat";
   font-size: 46px;
   letter-spacing: 0.5px;
-  color: #FF3365;
   white-space: nowrap;
 }
 

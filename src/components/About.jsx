@@ -3,7 +3,7 @@ import headshot from '../images/clint-gunter-headshot-color.jpg';
 function About() {
   return (
     <section className="about">
-      <h2 className="hi">Hi, I'm Clint</h2>
+      <h2 className="hi spectrum-color">Hi, I'm Clint</h2>
       <img className="headshot" src={headshot} alt="Clint Gunter" draggable="false" />
       <p>The intersection of design with technology is sort of where I live. “Arts & Technology” is actually the name of one of my degrees. Building superior, thoughtful, and functional interfaces is my passion.</p>
       <p>Recently I have come off of a sabbatical, sharpened my technical skills by completing a software engineering immersive, and worked on independent and freelance projects.</p>

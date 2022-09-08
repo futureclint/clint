@@ -1,0 +1,27 @@
+// Spectrum
+
+@use 'variables' as *;
+
+// Spectrum Color
+// Session has one of seven spectrum colors, assigned on the app wrapper. Any child element with this class will have that color assigned to it.
+.app.spectrum-1 .spectrum-color {
+  color: $spectrum-1;
+}
+.app.spectrum-2 .spectrum-color {
+  color: $spectrum-2;
+}
+.app.spectrum-3 .spectrum-color {
+  color: $spectrum-3;
+}
+.app.spectrum-4 .spectrum-color {
+  color: $spectrum-4;
+}
+.app.spectrum-5 .spectrum-color {
+  color: $spectrum-5;
+}
+.app.spectrum-6 .spectrum-color {
+  color: $spectrum-6;
+}
+.app.spectrum-7 .spectrum-color {
+  color: $spectrum-7;
+}

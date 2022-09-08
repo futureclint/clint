@@ -1,7 +1,5 @@
 // About
 
-@use 'variables' as *;
-
 .hi {
   display: block;
   padding: 0;
@@ -9,7 +7,6 @@
   font-family: 'Caveat';
   font-size: 46px;
   letter-spacing: 0.5px;
-  color: $spectrum-1;
   white-space: nowrap;
 }
 
