@@ -1,25 +1,29 @@
 // Mixins
 
-// Large Widths
+// Breakpoints
+// Usage: @include width-sm { }
 
+// Large (lg)
 @mixin width-lg {
   @media (min-width: 769px) {
     @content;
   }
 }
-
-// Medium Widths
-
+// Medium (md)
 @mixin width-md {
   @media (max-width: 1000px) {
     @content;
   }
 }
-
-// Small Widths
-
+// Small (sm)
 @mixin width-sm {
   @media (max-width: 768px) {
+    @content;
+  }
+}
+// Extra Small (xs)
+@mixin width-xs {
+  @media (max-width: 390px) {
     @content;
   }
 }

@@ -1,5 +1,7 @@
 // About
 
+@use 'mixins' as *;
+
 .hi {
   display: block;
   padding: 0;
@@ -8,6 +10,10 @@
   font-size: 46px;
   letter-spacing: 0.5px;
   white-space: nowrap;
+
+  @include width-xs {
+    text-align: center;
+  }
 }
 
 img.headshot {
@@ -17,4 +23,9 @@ img.headshot {
   margin: 0 0 20px 40px; // spacing for text flow
   clip-path: polygon(0 0, 0 70%, 30% 100%, 100% 100%, 100% 30%, 70% 0);
   opacity: 85%;
+
+  @include width-xs {
+    float: none;
+    margin: 0 auto 20px auto; // spacing for centering, retains bottom margin
+  }
 }
