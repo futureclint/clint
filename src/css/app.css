@@ -269,8 +269,9 @@ section.skills li {
   padding: 6px 12px;
   margin: 1px;
   background-color: #303030;
+  text-shadow: 0 0.5px 3px rgba(0, 0, 0, 0.33);
   cursor: default;
-  transition: background-color 0.33s ease-in;
+  transition: background-color 0.16s ease-in;
 }
 
 section.skills li.skill-html:hover {
