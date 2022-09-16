@@ -29,25 +29,19 @@ function App() {
       </div>
 
       <div className="grid">
-
         <Header />
-
         <main>
-
           <About />
-
+          <hr />
           <Skills />
-
+          <hr />
           <Projects />
-
+          <hr />
           <Contact />
-
+          <hr />
         </main>
-
         <Footer />
-
       </div>
-
     </div>
   );
 }
