@@ -1,5 +1,10 @@
 // Footer
 
+@use 'variables' as *;
+
 footer {
   padding: 20px;
+}
+footer span {
+  color: $medium-gray;
 }
