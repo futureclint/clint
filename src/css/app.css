@@ -110,7 +110,7 @@ a {
   transition: border-color 0.167s ease-out;
 }
 a:hover {
-  border-bottom: 1px solid;
+  border-color: inherit;
 }
 
 ul {

@@ -39,7 +39,7 @@ a {
   transition: border-color $tt ease-out;
 
   &:hover {
-    border-bottom: 1px solid;
+    border-color: inherit; // revert to inherited color
   }
 }
 ul {
