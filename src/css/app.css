@@ -103,6 +103,16 @@ p {
   color: #dadada;
 }
 
+a {
+  border-bottom: 1px solid;
+  border-color: transparent;
+  text-decoration: none;
+  transition: border-color 0.167s ease-out;
+}
+a:hover {
+  border-bottom: 1px solid;
+}
+
 ul {
   margin: 12px 0;
   list-style-type: none;
@@ -284,7 +294,7 @@ section.skills li {
   background-color: #303030;
   text-shadow: 0 0.5px 3px rgba(0, 0, 0, 0.33);
   cursor: default;
-  transition: background-color 0.16s ease-in;
+  transition: background-color 0.167s ease-out;
 }
 
 section.skills li.skill-html:hover {

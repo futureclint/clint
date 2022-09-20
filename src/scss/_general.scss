@@ -32,6 +32,16 @@ p {
   line-height: 24px;
   color: $light-gray; // TEMP: create variable
 }
+a {
+  border-bottom: 1px solid;
+  border-color: transparent;
+  text-decoration: none;
+  transition: border-color $tt ease-out;
+
+  &:hover {
+    border-bottom: 1px solid;
+  }
+}
 ul {
   margin: 12px 0;
   list-style-type: none;

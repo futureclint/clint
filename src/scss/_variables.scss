@@ -1,5 +1,9 @@
 // Variables
 
+// Transition Time
+$tt: 0.167s;
+
+// Grayscale
 $white:       #ffffff;
 $off-white:   #f0f0f0;
 $light-gray:  #dadada;
@@ -9,8 +13,7 @@ $dark-gray-2: #202020;
 $off-black:   #101010;
 $black:       #000000;
 
-// Colors
-
+// Logo Lines
 $spectrum-1: #FF3365;
 $spectrum-2: #E72CF7;
 $spectrum-3: #9100FF;
@@ -20,7 +23,6 @@ $spectrum-6: #00CCCC;
 $spectrum-7: #11E27A;
 
 // Logo Line Lengths
-
 $logo-line-base:   10000px;
 $logo-line-extend-0:   0px;
 $logo-line-extend-1: 0.5px;
@@ -28,7 +30,6 @@ $logo-line-extend-2:   2px;
 $logo-line-extend-3: 4.5px;
 
 // Skills
-
 $skill-html:        #E44D27;
 $skill-css:         #215EAA;
 $skill-sass:        #BF4080;

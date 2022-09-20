@@ -9,7 +9,7 @@ section.skills li {
   background-color: $dark-gray-1; // fallback
   text-shadow: 0 0.5px 3px rgba(black, 0.33);
   cursor: default;
-  transition: background-color 0.16s ease-in;
+  transition: background-color $tt ease-out;
 }
 
 section.skills {
