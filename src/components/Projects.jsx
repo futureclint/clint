@@ -2,6 +2,7 @@ function Projects() {
   return (
     <section className="projects">
       <h2>Recent Projects</h2>
+      <p>Below are a few examples of some recent independent projects. Please be advised these are works-in-progress.</p>
       <div className="project">
         <h3>When to Go Outside</h3>
         <p>Ever wondered when it would be best to go outside for a bit? This simple website uses your geolocation to pull weather data from the OpenWeather API, then calculates the span(s) of time it would be best to go outside. This project is a work in progress.</p>

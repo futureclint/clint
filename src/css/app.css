@@ -257,21 +257,6 @@ section {
   padding-bottom: 12px;
 }
 
-.hi {
-  display: block;
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Caveat";
-  font-size: 46px;
-  letter-spacing: 0.5px;
-  white-space: nowrap;
-}
-@media (max-width: 390px) {
-  .hi {
-    text-align: center;
-  }
-}
-
 img.headshot {
   display: block;
   float: right;
