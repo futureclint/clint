@@ -131,6 +131,20 @@ hr {
   color: #ffffff;
 }
 
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in.is-visible {
+  opacity: 1;
+  transform: translateY(0px);
+  visibility: visible;
+}
+
 .visually-hidden:not(:focus):not(:active) {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
