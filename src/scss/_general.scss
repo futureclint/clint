@@ -62,7 +62,7 @@ hr {
 // https://dev.to/selbekk/how-to-fade-in-content-as-it-scrolls-into-view-10j4
 .fade-in {
   opacity: 0; // fully transparent
-  transform: translateY(30px); // move down slightly, so can move up
+  transform: translateY(20px); // move down slightly, so can move up
   visibility: hidden; // makes hidden without changing layout (somewhat redundant)
   transition: opacity 0.6s ease-out, transform 1.2s ease-out;
   will-change: opacity, visibility;

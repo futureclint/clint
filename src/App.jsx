@@ -21,6 +21,7 @@ function App() {
     setSessionColor(randomColor);
   }, []);
 
+  // On page load, set visibility
   useEffect(() => {
     setVisible("is-visible");
   }, []);
