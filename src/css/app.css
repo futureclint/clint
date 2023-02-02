@@ -320,26 +320,17 @@ section.skills li.skill-aurelia:hover {
 section.skills li.skill-node:hover {
   background-color: #3D863C;
 }
-section.skills li.skill-express:hover {
-  background-color: #3A4854;
-}
-section.skills li.skill-mongodb:hover {
-  background-color: #023430;
-}
 section.skills li.skill-rubyonrails:hover {
   background-color: #D30002;
 }
 section.skills li.skill-postgresql:hover {
   background-color: #336791;
 }
+section.skills li.skill-mongodb:hover {
+  background-color: #023430;
+}
 section.skills li.skill-git:hover {
   background-color: #F54D27;
-}
-section.skills li.skill-uiuxdesign:hover {
-  background-color: #005CFF;
-}
-section.skills li.skill-branding:hover {
-  background-color: #00B400;
 }
 section.skills li.skill-liquid:hover {
   background-color: #0C83CD;
@@ -349,6 +340,27 @@ section.skills li.skill-shopify:hover {
 }
 section.skills li.skill-statamic:hover {
   background-color: #FE259E;
+}
+section.skills li.skill-wordpress:hover {
+  background-color: #3957E9;
+}
+section.skills li.skill-drupal:hover {
+  background-color: #0D78BE;
+}
+section.skills li.skill-uiuxdesign:hover {
+  background-color: #005CFF;
+}
+section.skills li.skill-sketch:hover {
+  background-color: #FFBB01;
+}
+section.skills li.skill-figma:hover {
+  background-color: #A259FF;
+}
+section.skills li.skill-photoshop:hover {
+  background-color: #39B0FD;
+}
+section.skills li.skill-illustrator:hover {
+  background-color: #FF9601;
 }
 
 footer {
