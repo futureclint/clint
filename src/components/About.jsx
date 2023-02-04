@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import headshot from '../images/clint-gunter-headshot-color.jpg';
+import headshot from '../images/clint-gunter-headshot.jpg';
 
 function About() {
   return (
