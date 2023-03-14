@@ -35,7 +35,7 @@ function Projects() {
       <div className="project">
         <h3>Ambience Library</h3>
         <p>Coming soon, in collaboration with <a href="https://devon.moubry.com" target="_blank" rel="noopener noreferrer">Devon Moubry</a>, is a project that displays a curated list of ambience videos from YouTube that allows the user to filter results in granular fashion. This project will be built with Vue, TypeScript, and Sass/SCSS.</p>
-        <p><a href="#" target="_blank" rel="noopener noreferrer">View Progress <span className="icon-arrow">&#8599;</span></a></p>
+        <p><a href="https://github.com/futureclint/ambience-library" target="_blank" rel="noopener noreferrer">View Progress <span className="icon-arrow">&#8599;</span></a></p>
       </div>
 
       <hr />
@@ -46,9 +46,9 @@ function Projects() {
       <div className="project">
         <h3>Lumics</h3>
         <p>UI/UX design, front-end development, and branding for a SaaS web app that displays, monitors, and manages thousands of devices for enterprise. Created branding and logo design for the app. Created an extensive custom icon set as part of a look-and-feel overhaul. Extensive front-end UI development to implement designs and create functional UI. Built with Aurelia, JavaScript, and Sass/SCSS.</p>
-        <img className="project-image lumics1" src={lumics1} draggable="false" />
-        <img className="project-image lumics2" src={lumics2} draggable="false" />
-        <img className="project-image lumics3" src={lumics3} draggable="false" />
+        <img className="project-image lumics1" src={lumics1} alt="Lumics logo" draggable="false" />
+        <img className="project-image lumics2" src={lumics2} alt="Lumics sidebar nav and icons" draggable="false" />
+        <img className="project-image lumics3" src={lumics3} alt="Lumics dashboard" draggable="false" />
       </div>
 
     </section>
