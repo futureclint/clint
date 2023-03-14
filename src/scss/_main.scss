@@ -1,5 +1,8 @@
 // Main
 
+@use 'variables' as *;
+@use 'mixins' as *;
+
 main {
   padding: 0 20px;
 }
@@ -7,4 +10,26 @@ main {
 section {
   width: 100%;
   padding-bottom: 12px;
+}
+
+.project-image {
+  display: block;
+  max-width: 100%;
+  margin: 20px auto;
+
+  &.border {
+    border: 1px solid $dark-gray-2;
+  }
+}
+
+.project-image.inflation-station {
+  width: 50%;
+}
+
+.project-image.lumics1 {
+  max-width: 500px;
+}
+
+.project-image.lumics2 {
+  max-width: 280px;
 }
