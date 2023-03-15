@@ -12,22 +12,28 @@ section {
   padding-bottom: 12px;
 }
 
-.project-image {
-  display: block;
-  max-width: 100%;
-  width: 100%; // fallback
-  margin: 20px auto;
+.projects figure {
+  width: fit-content;
+  margin: 0 auto 20px auto;
 
-  &.border {
-    border: 1px solid $dark-gray-2;
+  img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    user-select: none;
   }
-  &.inflation-station {
-    width: 50%;
+  figcaption {
+    margin-top: 10px;
+    user-select: none; // no highlight
+    cursor: default; // no text select
   }
-  &.lumics1 {
-    max-width: 500px; // half width for high dpi
+  &.inflation-station-branding img {
+    max-width: 400px;
   }
-  &.lumics2 {
-    max-width: 280px; // half width for high dpi
+  &.lumics-branding img {
+    max-width: 500px;
+  }
+  &.lumics-sidebar img {
+    max-width: 280px;
   }
 }

@@ -32,6 +32,11 @@ p {
   line-height: 24px;
   color: $light-gray; // TEMP: create variable
 }
+figcaption {
+  margin: 0;
+  font-size: 14px;
+  color: $medium-gray;
+}
 a {
   border-bottom: 1px solid;
   border-color: transparent;
