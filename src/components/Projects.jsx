@@ -19,7 +19,7 @@ function Projects() {
           <img src={inflation} alt="Inflation Station logo" draggable="false" />
           <figcaption>Branding for project revision</figcaption>
         </figure>
-        <p><a href="https://github.com/futureclint/inflation-station" target="_blank" rel="noopener noreferrer">View Project <span className="icon-arrow">&#8599;</span></a></p>
+        <p><a href="https://github.com/futureclint/inflation-station-2" target="_blank" rel="noopener noreferrer">View Project <span className="icon-arrow">&#8599;</span></a></p>
       </div>
 
       <hr className="short" />
